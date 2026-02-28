@@ -16,19 +16,19 @@ Use west with the local `config` manifest.
 west init -l config
 west update
 ```
-Build a target locally (example: Velvet left):
+Build a target locally (example: Imperial44 left):
 ```powershell
-west build -s zmk/app -d build/velvet_v3_left -b ergohaven -- -DSHIELD=velvet_v3_left -DZMK_CONFIG="%CD%/config"
+west build -s zmk/app -d build/imperial44_left -b ergohaven -- -DSHIELD=imperial44_left -DZMK_CONFIG="%CD%/config"
 ```
-Build a named keymap variant (example: Trackball v3.1):
+Build a named keymap variant (example: Imperial44 VOSKHOD):
 ```powershell
-west build -s zmk/app -d build/trackball_v3_1 -b ergohaven -- -DSHIELD=trackball -DKEYMAP=trackball_v3.1 -DZMK_CONFIG="%CD%/config"
+west build -s zmk/app -d build/imperial44_voskhod -b ergohaven -- -DSHIELD=imperial44_left -DKEYMAP=imperial44_voskhod -DZMK_CONFIG="%CD%/config"
 ```
 CI also builds on every `push` and `pull_request` using `build.yaml`.
 
 ## Coding Style & Naming Conventions
 - Follow existing DTS/Kconfig style: 4-space indentation, braces on separate lines, aligned keymap columns where practical.
-- Keep names consistent with current patterns: base variants like `velvet_v3.keymap`, `op36.conf`, and `k03.json`.
+- Keep names consistent with current patterns: base variants like `imperial44.keymap`, `imperial44.conf`, and `imperial44.json`.
 - Use language variant names as `*_ruen.keymap`.
 - Use Qube variant config names as `*_qube.conf`.
 - Prefer small, focused edits per keyboard family.
@@ -39,7 +39,7 @@ CI also builds on every `push` and `pull_request` using `build.yaml`.
 - If you modify shared behavior (e.g., includes, common macros, or `build.yaml`), validate multiple affected shields before opening a PR.
 
 ## Commit & Pull Request Guidelines
-- Keep commit messages short, imperative, and lowercase, matching history (e.g., `add trackball v3.1`, `fix ruen mo`).
+- Keep commit messages short, imperative, and lowercase, matching history (e.g., `add imperial44 voskhod`, `fix ruen mo`).
 - PRs should state what keyboard/shield(s) are affected.
 - PRs should describe behavior changes (layers, combos, media keys, etc.).
 - PRs should call out any `build.yaml` artifact-name updates.
