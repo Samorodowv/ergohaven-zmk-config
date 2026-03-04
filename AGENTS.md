@@ -28,7 +28,7 @@ CI also builds on every `push` and `pull_request` using `build.yaml`.
 
 ## Coding Style & Naming Conventions
 - Follow existing DTS/Kconfig style: 4-space indentation, braces on separate lines, aligned keymap columns where practical.
-- Keep names consistent with current patterns: `imperial44_voskhod.keymap`, `imperial44_voskhod.json`, and shared board config `imperial44.conf`.
+- Keep names consistent with current patterns: base variants like `imperial44.keymap`, `imperial44.conf`, and `imperial44.json`.
 - Use language variant names as `*_ruen.keymap`.
 - Use Qube variant config names as `*_qube.conf`.
 - Prefer small, focused edits per keyboard family.
