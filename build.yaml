@@ -8,6 +8,7 @@ include:
     artifact-name: imperial44_left_voskhod-ergohaven-zmk
   - board: ergohaven
     shield: imperial44_right
+    keymap: imperial44_voskhod
   - board: ergohaven
     shield: imperial44_qube qube dongle_screen
     keymap: imperial44_voskhod
@@ -16,6 +17,7 @@ include:
     artifact-name: imperial44_qube_voskhod-ergohaven-zmk
   - board: ergohaven
     shield: imperial44_left_qube
+    keymap: imperial44_voskhod
 
   - board: ergohaven
     shield: settings_reset
