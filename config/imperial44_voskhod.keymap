@@ -85,7 +85,7 @@
         fn_nav_media {
             bindings = <
 &kp LGUI    &kp F1  &kp F2   &kp F3   &kp F4     &kp C_VOL_UP                          &kp PG_UP  &kp HOME       &kp UP            &kp END     &kp BACKSPACE  &kp DELETE
-&kp TAB     &kp F5  &kp F6   &kp F7   &kp F8     &kp C_MUTE                            &kp PG_DN  &kp LEFT       &kp DOWN          &kp RIGHT   &kp PG_UP      &kp PRINTSCREEN
+&kp TAB     &kp F5  &kp F6   &kp F7   &kp F8     &kp C_MUTE                            &kp PG_DN  &kp LEFT       &kp DOWN          &kp UP      &kp RIGHT      &kp PRINTSCREEN
 &kp LSHIFT  &kp F9  &kp F10  &kp F11  &kp F12    &kp C_VOL_DN  &tog 1       &none      &none      &kp C_PREV     &kp C_PLAY_PAUSE  &kp C_NEXT  &kp PG_DN      &kp LALT
                                       &kp LCTRL  &trans        &kp SPACE    &kp ENTER  &mo 4      &kp BACKSPACE
             >;
