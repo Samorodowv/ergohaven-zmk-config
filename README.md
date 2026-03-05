@@ -22,4 +22,4 @@ Thumb: [ LCtrl][ Trans ][ Space ]                  [ Enter ][ MO(4) ][ Backspace
 
 ## RU note
 
-On `ru` layer, the rightmost bottom key is `alt_lang_ru`: tap is `RU_DOT`, hold is `Alt`, and `Shift+that key` triggers language toggle.
+Language toggle is now a combo: press the two outer keys on row 3 (`LShift` on the left and rightmost `Alt/Dot` key) together. This sends `Alt+Shift` to OS and toggles keyboard layer (`&tog 1`) in sync.
